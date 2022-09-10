@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+:root {
+  --pri-color: #24232b;
+  --pri-color2: #231F20;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+input[type=checkbox] {
+  cursor: pointer;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+#container {
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  border-radius: 5px;
+}
+#container #title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#passShow {
+  background: var(--pri-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
+  border-radius: 7px;
+  overflow-x: scroll;
+}
+#passShow span {
+  font-size: 2rem;
+  color: #ddd;
+}
+
+#mainItems {
+  display: flex;
+  flex-direction: column;
+  background: var(--pri-color);
+  margin-top: 20px;
+  border-radius: 7px;
+  padding: 25px 20px;
+}
+#mainItems .length {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+#mainItems .length #charLen {
+  font-size: 1.4rem;
+  color: #ddd;
+}
+#mainItems #list {
+  font-size: 16px;
+}
+#mainItems #list input[type=range] {
+  overflow: hidden;
+  background: transparent;
+  width: 100%;
+  margin-bottom: 15px;
+}
+#mainItems #list input[type=range]::-moz-range-progress {
+  background: #a4ffaf;
+}
+#mainItems #list input[type=range]::-moz-range-track {
+  background-color: #18171f;
+}
+#mainItems #list input {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+#mainItems #strangth {
+  background-color: #18171f;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 15px 10px;
+}
+#mainItems button {
+  background: #a4ffaf;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  color: #18171f;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 7px;
+}
+#mainItems button i {
+  margin-left: 5px;
+}/*# sourceMappingURL=style.css.map */
